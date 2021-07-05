@@ -1,0 +1,9 @@
+1.http://localhost:2020//students with [valid student_id and invalid]
+2.http://localhost:2020//student/0/classes [valid student_id and invalid]
+3.http://localhost:2020//student/0/performance [valid student_id and invalid, total marks validity]
+4.http://localhost:2020//classes [count of distinct classes]
+5.http://localhost:2020//class/339/students [valid class_id and invalid]
+6.http://localhost:2020//class/339/performance [valid class_id and invalid, total marks validity]
+7.http://localhost:2020//class/339/final-grade-sheet [valid and invalid class_id and grades as per rule]
+8.http://localhost:2020//student/0/class/339 [valid and invalid class_id and student_id combination]
+9.Format of all output should as asked
